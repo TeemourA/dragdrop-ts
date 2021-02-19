@@ -1,9 +1,9 @@
-import Component from './base-component.js';
-import ProjectItem from './project-item.js';
-import { Project, ProjectStatus } from '../models/project-model.js';
-import { projectState } from '../state/project-state.js';
-import { Autobind } from '../decorators/autobind.js';
-import { DragTarget } from '../models/dd-interfaces.js';
+import Component from './base-component';
+import ProjectItem from './project-item';
+import { Project, ProjectStatus } from '../models/project-model';
+import { projectState } from '../state/project-state';
+import { Autobind } from '../decorators/autobind';
+import { DragTarget } from '../models/dd-interfaces';
 export default class ProjectList
   extends Component<HTMLDivElement, HTMLElement>
   implements DragTarget {
